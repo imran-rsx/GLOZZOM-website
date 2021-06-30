@@ -1,0 +1,139 @@
+body {
+  margin-top: 100px;
+}
+
+.navbar {
+  background: #000;
+}
+
+.carosel-item {
+  height: 450px;
+}
+
+.carousel-item {
+  height: 70vh;
+}
+
+#slideHero {
+  margin-top: 110px;
+}
+
+#idea i {
+  font-size: 2.5rem;
+}
+
+#ready {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("img/bg1.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/bg1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home-vedio {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("img/people.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/people.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home-vedio i {
+  font-size: 2.5rem;
+}
+
+#gallery a img {
+  min-height: 300px !important;
+}
+
+.img-saparetor {
+  height: 3rem;
+}
+
+#newslatter form input {
+  background: #000;
+}
+
+input.m-2 {
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+
+input.m-2:last-child {
+  background: #6af676;
+}
+
+#about-hero {
+  background-image: url("img/image1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#ourWork img {
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+}
+
+#service i {
+  font-size: 40px;
+}
+
+#service1 {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0))), url("img/image2.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0) gba(0, 0, 0, 0.7)), url("img/image2.jpeg");
+  background-attachment: fixed;
+}
+
+.service-section-bg {
+  background: #000;
+}
+
+#blog {
+  color: white;
+  background-attachment: fixed;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0))), url("img/image2.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0) gba(0, 0, 0, 0.7)), url("img/image2.jpeg");
+}
+
+@media (max-width: 520px) {
+  #newslatter input {
+    margin: 0 !important;
+  }
+  #newslatter .button {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 360px) {
+  #showOff img {
+    margin-top: 20px;
+  }
+  #slideHero .carousel-item img {
+    height: 500px;
+  }
+  #gallery .row {
+    margin-bottom: 0px !important;
+  }
+  .img-saparetor {
+    height: 0px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #service .col-md-4 {
+    margin-bottom: 3rem;
+  }
+  #service .last {
+    margin-bottom: 0px;
+  }
+  #service .row {
+    padding-top: 0px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
